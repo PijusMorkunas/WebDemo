@@ -241,11 +241,20 @@ body {
     margin-top: 30px;
     background-image: linear-gradient(to right, #8d052e, #ff0033);
 }
-hr{
+
+hr {
     background-color: white;
 }
-.copyright{
+
+.copyright {
     margin-bottom: 0;
     padding-bottom: 20px;
     text-align: center;
+}
+
+/*login remember-me*/
+#remember-me {
+    width: 1px;
+    height: 1px;
+    display: block;
 }
