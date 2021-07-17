@@ -14,5 +14,11 @@ public class Client {
         this.clientName = clientName;
     }
 
-
+    @Override
+    public String toString() {
+        return "Client{" +
+                "clientId=" + clientId +
+                ", clientName='" + clientName + '\'' +
+                '}';
+    }
 }
